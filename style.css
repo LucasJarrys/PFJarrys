@@ -8,6 +8,10 @@
     background-color: black;
 }
 
+.logo-header{
+    width: 60px;
+}
+
 span.busqueda{
     color: white;
     margin-left: 1px;
@@ -21,6 +25,8 @@ span.busqueda{
 h1.titulo{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -175,9 +181,4 @@ div.camaras{
 .logo{
     height: 70px;
     width: 70px;
-}
-
-.logo-header{
-    height: 30px;
-    width: 30px;
 }
