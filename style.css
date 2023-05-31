@@ -6,7 +6,6 @@
 /* encabezado */
 #header-inicio{
     background-color: black;
-    height: 70px;
 }
 
 span.busqueda{
@@ -21,8 +20,6 @@ span.busqueda{
 /* nombre de la pagina */
 h1.titulo{
     color: white;
-    margin-left: 550px;
-    margin-top: -30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
