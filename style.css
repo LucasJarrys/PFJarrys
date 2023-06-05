@@ -141,13 +141,11 @@ img.imagen-4{
 }
 
 .formulario{
-    display: grid;
-    justify-content: center;
+    
     background-color: rgb(207, 207, 207);
-    margin-left: 500px;
-    margin-right: 550px;
-    text-align: center;
     border-radius: 10px;
+    padding: 50px;
+    margin: 50px;
 }
 
 .logo{
