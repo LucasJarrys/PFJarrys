@@ -1,0 +1,28 @@
+@import 'molde';
+   /* header */
+    body {
+        .header-inicio{
+            background-color: $negro;
+            
+        }
+        h1.titulo{
+                color: $color-titulo;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                @include flex-center;
+                animation-duration: 5s;
+                animation-name: aparecer;
+                animation-iteration-count: 1;
+                }
+                @keyframes aparecer {
+                    0% {
+                      opacity: 0;
+                    }
+                    100% {
+                      opacity: 1;
+                    }
+                 }
+                 
+        }
+        .logo-header{
+            width: 60px;
+        }

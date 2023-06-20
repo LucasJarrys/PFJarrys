@@ -1,0 +1,36 @@
+    /* footer */
+    .footer{
+        // background-color: $negro;
+        background-image: linear-gradient(to bottom, $negro, $negro, $negro, rgb(71, 71, 71), white );
+        padding-top: 50px;
+    
+    div{
+        p{
+            color: $color-titulo;
+        }
+        
+    .volver{
+            background-color: $color-titulo;
+            border-radius: $bordes;
+            color: $negro;
+            padding: $padding-botones;
+            text-decoration: none;
+        }
+        
+    .volver:hover {
+            background-color:  $color-fondo;
+            border-radius: $bordes;
+            color: $color-titulo;
+            padding: $padding-botones;
+            text-decoration: none;
+        }
+        
+    .logo{
+            width: 90px;
+            transition: transform 2s;
+        }
+    .logo:hover {
+            transform: rotate(360deg);
+        }
+    }        
+    }

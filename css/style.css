@@ -1,3 +1,144 @@
+/* colores */ /* medidas */
+* {
+  margin: 0;
+  padding: 0;
+}
 
+/* media quary */
+@media screen and (max-width: 797px) {
+  main section div.camaras {
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  footer {
+    display: none;
+  }
+}
+/* header */
+body .header-inicio {
+  background-color: black;
+}
+body h1.titulo {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  animation-duration: 5s;
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo-header {
+  width: 60px;
+}
+
+/* menu */
+nav.navegacion {
+  display: grid;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgba(207, 207, 207, 0.219);
+}
+
+/* Main */
+main.productos {
+  margin-top: 50px;
+}
+
+h2.ofertas {
+  background-color: rgb(207, 207, 207);
+}
+
+section .camaras {
+  background-color: rgb(207, 207, 207);
+  padding: 10px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+div img.imagen-oferta {
+  height: 140px;
+  width: 140px;
+}
+div form .boton, div form input.boton_ {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+div form .boton:hover, div form input.boton_:hover {
+  background-color: rgb(207, 207, 207);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* formulario */
+.formulario {
+  background-color: rgb(207, 207, 207);
+  border-radius: 10px;
+  padding: 60px;
+  margin: 60px;
+}
+
+form input.boton_:hover {
+  background-color: rgb(207, 207, 207);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* pagina (nosotros) */
+main p.quien-somos {
+  margin-bottom: 150px;
+  margin-right: 700px;
+}
+
+/* footer */
+.footer {
+  background-image: linear-gradient(to bottom, black, black, black, rgb(71, 71, 71), white);
+  padding-top: 50px;
+}
+.footer div p {
+  color: white;
+}
+.footer div .volver {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.footer div .volver:hover {
+  background-color: rgb(207, 207, 207);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.footer div .logo {
+  width: 90px;
+  transition: transform 2s;
+}
+.footer div .logo:hover {
+  transform: rotate(360deg);
+}
 
 /*# sourceMappingURL=style.css.map */

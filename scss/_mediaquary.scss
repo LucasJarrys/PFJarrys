@@ -1,0 +1,17 @@
+/* media quary */
+
+@media screen and (max-width: 797px) { 
+    main{
+        section{
+            div.camaras{
+    background-color: $color-fondo;
+    padding: $padding-botones;
+    margin: 10px;
+    text-align: center;                
+                }
+            }
+        }
+ footer{
+    display: none;
+    }  
+}  
