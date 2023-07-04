@@ -4,18 +4,6 @@
   padding: 0;
 }
 
-/* media quary */
-@media screen and (max-width: 797px) {
-  main section div.camaras {
-    background-color: rgb(207, 207, 207);
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-  }
-  footer {
-    display: none;
-  }
-}
 /* header */
 body .header-inicio {
   background-color: black;
@@ -139,6 +127,19 @@ main p.quien-somos {
 }
 .footer div .logo:hover {
   transform: rotate(360deg);
+}
+
+/* media quary */
+@media screen and (max-width: 797px) {
+  main section div.camaras {
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  footer {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
